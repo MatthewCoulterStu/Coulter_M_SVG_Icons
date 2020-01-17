@@ -7,7 +7,8 @@
  // find the elements in the doc
  let toggleButton = document.querySelector(".switch-text"),
  	myHeading  = document.querySelector('h1'),
- 	svgImg= document.querySelector('#badge');
+ 	//svgImg= document.querySelector('#badge'), 
+ 	allSVGs = document.querySelectorAll(".svg");
 
  	function changeText() {
  		myHeading.textContent = "what is up? I am script";
@@ -17,8 +18,10 @@
  		console.log(this. id);
  	}
 
+//things the user can do to make things happen
  	toggleButton.addEventListener("click", changeText);
- 	svgImg.addEventListener("mouseover", logSVG);
+ 	allSVGs.forEach(item => item.addEventListener("click", logSVG));
+ 	//svgImg.addEventListener("click", logSVG);
 // document.querySelector('h1').textContent="what is up? I am script"
 
 })();
