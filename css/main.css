@@ -8,3 +8,21 @@
  .img-wrapper > img {
  	width: 30%;
  }
+
+ .black-background {
+ 	background-color: black;
+ }
+
+/* changes the svg based on hovering */
+ #beerBarrels:hover #rBarrel {
+ 	fill: red;
+ }
+
+  #beerBarrels:hover #lBarrel {
+ 	fill: red;
+ }
+
+  #beerBarrels:hover #cBarrel {
+ 	fill: red;
+ }
+
