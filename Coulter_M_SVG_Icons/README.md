@@ -1,1 +1,0 @@
-# Creating SVG Icons
