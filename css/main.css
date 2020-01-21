@@ -4,25 +4,27 @@
  	padding: 20px;
  }
 
-/* this is saying any image inside the parent should be adapted */
- .img-wrapper > img {
- 	width: 30%;
+#row1 {
+	flex-direction: row;
+}
+
+ #apple	{
+ 	height: 100px;
+ 	width: 100px;
+ 	padding: 30px;
  }
 
- .black-background {
- 	background-color: black;
+  #bannana {
+ 	height: 100px;
+ 	width: 100px;
+ 	padding: 30px;
+ }
+ 
+  #cherry {
+ 	height: 100px;
+ 	width: 100px;
+ 	padding: 30px;
  }
 
-/* changes the svg based on hovering */
- #beerBarrels:hover #rBarrel {
- 	fill: red;
- }
 
-  #beerBarrels:hover #lBarrel {
- 	fill: red;
- }
-
-  #beerBarrels:hover #cBarrel {
- 	fill: red;
- }
 
